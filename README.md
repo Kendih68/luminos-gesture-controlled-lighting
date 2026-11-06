@@ -40,6 +40,16 @@ These command numbers come from the report; complete NEC addresses, frame values
 - The lantern design uses a threaded head and base, receiver openings, and internal receiver supports.
 - The team investigated interference attributed to the wearable's step-up booster and revised the power arrangement.
 
+## CAD design previews
+
+The wearable controller and lantern housings were designed with internal mounting, component compartments, and receiver openings. These illustrations are extracted from the group report.
+
+![Wearable controller enclosure](docs/images/cad/wearable-enclosure-interior.png)
+
+![Lantern housing](docs/images/cad/lantern-head-views.png)
+
+[View all eight CAD illustrations with source captions](docs/cad-gallery.md). Editable CAD files have not been supplied.
+
 ## Reported results and limits
 
 The group report describes successful color changes, white-level adjustment, and on/off toggling. It reports response latency **under 100 ms** and improved angular coverage from multiple receivers. These are report claims, not independently reproduced measurements: no raw timing data, trial counts, measured coverage angles, or range results were supplied.
@@ -61,12 +71,13 @@ These contributions are part of the group's overall system. This attribution doe
 
 ## Documentation
 
+- [CAD design gallery](docs/cad-gallery.md)
 - [System and hardware notes](docs/hardware.md)
 - [Reported results and future validation](docs/validation.md)
 - [Credits and contribution boundaries](docs/credits.md)
 - [Source provenance and open questions](docs/source-notes.md)
 
-The [seven-page project report](docs/report/luminos-project-report.pdf) is included with group permission, as confirmed by Mathas. It contains the original CAD and circuit figures; editable originals are not included.
+The [seven-page project report](docs/report/luminos-project-report.pdf) is included with group permission, as confirmed by Mathas. It contains the original CAD and circuit figures; CAD illustrations are also available in the gallery above. Editable originals are not included.
 
 ## Future development
 
