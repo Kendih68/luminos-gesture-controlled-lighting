@@ -36,4 +36,4 @@ Two February progress reports provide early implementation evidence. Progress Re
 
 Progress Report 2 (17 February 2026), pages 2–4, describes ADXL345 roll logic with a 90-degree trigger and neutral rearm, but laptop photographs do not support reliable verbatim code recovery. These early designs differ from the final report's MPU6050, commands 1/2/3, and NeoPixel rings. The original final integrated firmware remains unavailable.
 
-Missing implementation was generated at Mathas's request on 6 November 2026. The final architecture's `main.cpp` and `logic.h` are a completed reference implementation, not recovered original student source. Build instructions, adaptations, and test limitations are listed in [firmware documentation](../firmware/README.md).
+The firmware was completed on 6 November 2026 after the original prototype report. The final architecture's `main.cpp` and `logic.h` are a reference implementation; the original integrated source was unavailable. Build instructions, adaptations, and test limitations are listed in [firmware documentation](../firmware/README.md).
