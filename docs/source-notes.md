@@ -28,3 +28,12 @@ Individual contribution scope comes from the prior project conversation supplied
 ## Materials unavailable
 
 No original firmware, editable CAD, standalone schematic source, build configuration, prototype photographs/video, or measurement logs were provided. Figures embedded in the PDF do not establish the availability of the original design files.
+
+
+## Code evidence added on 6 November 2026
+
+Two newly supplied February progress reports provide early implementation evidence. Progress Report 1 (10 February 2026), page 12, contains readable IR transmitter/receiver screenshots using legacy raw ON/OFF values and a relay output. Page 15 contains a standalone ESP32 Wi-Fi dashboard example. The four source screenshots are extracted unchanged into `firmware/`; visible code is transcribed in the historical `.txt` files.
+
+Progress Report 2 (17 February 2026), pages 2–4, describes ADXL345 roll logic with a 90-degree trigger and neutral rearm, but laptop photographs do not support reliable verbatim code recovery. These early designs differ from the final report's MPU6050, commands 1/2/3, and NeoPixel rings. The final integrated firmware remains unavailable.
+
+At Mathas's explicit request, `firmware/main.cpp`, `logic.h`, the PlatformIO configuration, and host tests were generated on 6 November 2026. They are a reference reconstruction, not original student work. Generated choices and test limitations are listed in [firmware documentation](../firmware/README.md). Source evidence: [IR sender](../firmware/ir-tx.png), [IR receiver](../firmware/ir-rx.png), [dashboard first half](../firmware/dashboard-a.png), [dashboard second half](../firmware/dashboard-b.png).
