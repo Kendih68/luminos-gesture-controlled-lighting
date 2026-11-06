@@ -4,7 +4,7 @@ Control three LED lanterns with a wearable motion controller: tilt to change col
 
 Luminos is a university group engineering prototype from the International School of Engineering, Chulalongkorn University. Its project report is titled *Luminos: a Doctor Strange Inspired Device*.
 
-**Repository status:** Documentation prepared from the seven-page group report. Original firmware, editable CAD, standalone circuit files, prototype photographs, and test logs have not been supplied. Historical code transcriptions and an explicitly labeled AI-generated reference implementation are now available in [firmware](firmware/README.md). The generated version is not the original team firmware and has not been tested on the project hardware.
+**Repository status:** Documentation prepared from the seven-page group report. Original firmware, editable CAD, standalone circuit files, prototype photographs, and test logs have not been supplied. Buildable report examples and a completed reference implementation are now available in [firmware](firmware/README.md). The generated version is not the original team firmware and has not been tested on the project hardware.
 
 ## How it works
 
@@ -21,7 +21,7 @@ flowchart LR
     G --> H[16-pixel NeoPixel ring]
 ```
 
-The final report describes 38 kHz infrared signaling. The February progress reports also contain early Wi-Fi dashboard and relay-control examples; these are preserved as historical transcriptions in the firmware folder. They do not establish a completed dashboard integrated with the final IR/NeoPixel system.
+The final report describes 38 kHz infrared signaling. The February progress reports also contain early Wi-Fi dashboard and relay-control examples; these are available as buildable C++ examples in the firmware folder. They do not establish a completed dashboard integrated with the final IR/NeoPixel system.
 
 ## Gesture controls
 
@@ -42,7 +42,7 @@ These command numbers come from the report; complete NEC addresses, frame values
 
 ## Source code and reference firmware
 
-[Browse firmware, provenance, build instructions, and tests](firmware/README.md). Readable screenshots from the early progress reports are transcribed separately from newly generated code. The generated ESP32 wearable/lantern example implements the final report's MPU6050 and NEC commands 1/2/3 with configurable defaults; the original final integrated source is still unavailable. Do not attribute generated code to the project team or use its selected parameters as historical measurements.
+[Browse firmware, provenance, build instructions, and tests](firmware/README.md). The early report examples are completed as dashboard, IR transmitter, and IR receiver source files. The generated ESP32 wearable/lantern example implements the final report's MPU6050 and NEC commands 1/2/3 with configurable defaults; the original final integrated source is still unavailable. Do not attribute generated code to the project team or use its selected parameters as historical measurements.
 
 ## CAD design previews
 
