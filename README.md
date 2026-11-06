@@ -48,7 +48,7 @@ The wearable controller and lantern housings were designed with internal mountin
 
 ![Lantern housing](docs/images/cad/lantern-head-views.png)
 
-[View all eight CAD illustrations with source captions](docs/cad-gallery.md). Editable CAD files have not been supplied.
+[View all eight CAD illustrations with source captions](docs/cad-gallery.md).
 
 ## Reported results and limits
 
