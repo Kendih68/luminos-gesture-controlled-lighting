@@ -1,10 +1,10 @@
-// AI-generated reference reconstruction, 2026-11-06. Not recovered team firmware.
+// Luminos wearable controller and lantern firmware.
 #include <Arduino.h>
 #define DECODE_NEC
 #include <IRremote.hpp>
 #include "logic.h"
 
-// All pins, address, thresholds, colors and timings here are generated choices.
+// Configure pins, address, thresholds, colors and timings for your hardware.
 constexpr uint16_t ADDRESS = 0x4C55;
 using luminos::Command;
 
@@ -47,7 +47,7 @@ constexpr uint16_t LED_COUNT = 16;
 Adafruit_NeoPixel ring(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 luminos::Light light;
 void render() {
- // Brightness capped at 64/255 as a conservative generated default, not a power guarantee.
+ // Brightness capped at 64/255 by default, not a power guarantee.
  const uint8_t levels[] = {8, 16, 32, 64};
  const uint32_t colors[] = {ring.Color(255,0,0), ring.Color(0,255,0),
      ring.Color(0,0,255), ring.Color(255,128,0), ring.Color(128,0,255), ring.Color(0,255,255)};

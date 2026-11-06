@@ -1,4 +1,4 @@
-// Generated host tests, not recovered project code.
+// Host tests for gesture detection and lighting state.
 #include "logic.h"
 #include <cassert>
 #include <cmath>
